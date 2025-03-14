@@ -19,7 +19,7 @@ function getAllDestinations(data) {
       description: `Country with cities like ${country.cities
         .map((city) => city.name.split(",")[0])
         .join(", ")}`,
-      imageUrl: country.cities[0].imageUrl,
+      imageUrl: country.imgUrl,
     });
 
     country.cities.forEach((city) => {
