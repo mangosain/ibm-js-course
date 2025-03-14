@@ -5,7 +5,7 @@ async function fetchDestinations() {
     console.log("Fetched destinations:", data);
     return data;
   } catch (error) {
-    console.log("Error fetching destinations:", error);
+    console.error("Error fetching destinations:", error);
     return null;
   }
 }

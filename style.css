@@ -46,8 +46,7 @@ body {
   transition: color 0.3s;
 }
 
-.nav-links a:hover,
-.nav-links a.active {
+.nav-links a:hover {
   color: #4caf50;
 }
 
