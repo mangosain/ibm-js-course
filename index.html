@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBloom - Explore Dream Destinations</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">TravelBloom</div>
+      <div class="nav-links">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div class="search-container">
+        <div class="search-bar">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter a destination or keyword"
+          />
+          <button class="search-btn">Search</button>
+          <button class="clear-btn" id="clearBtn">Clear</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </nav>
+
+    <main class="hero">
+      <div class="hero-content">
+        <h1>
+          <span>EXPLORE</span>
+          <span>DREAM</span>
+          <span>DESTINATION</span>
+        </h1>
+        <p>
+          It encourages exploration of unfamiliar territories, embracing diverse
+          cultures and landscapes, while pursuing the desired destination that
+          captivates the heart and ignites a sense of wonder.
+        </p>
+        <button class="cta-button">BOOK NOW</button>
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+      </div>
+    </main>
+
+    <section id="about">
+      <h1>ABOUT US</h1>
+
+      <p class="about-content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fuga
+        maxime eius error ullam repellendus laboriosam, sunt id fugiat
+        assumenda. <b>Consequatur provident molestiae magnam</b> accusamus dolor
+        adipisci expedita non accusantium, ad doloremque, consequuntur eum,
+        possimus voluptates veniam voluptatum est nisi quaerat alias eligendi?
+        Fugit suscipit nesciunt iure commodi maiores dignissimos. <br />
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore unde
+        dolores, dicta magni sequi non beatae ipsum nemo atque provident laborum
+        natus architecto enim voluptatibus voluptates esn.
+        <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita
+        natus dolore nisi veritatis voluptatum?
+      </p>
+
+      <div class="team">
+        <h1>OUR<br />TEAM</h1>
+        <div class="card-list">
+          <div class="card">
+            <h3>John Doe</h3>
+            <p>John is reponsible for.....</p>
+            <button class="team-btn">CEO</button>
+          </div>
+          <div class="card">
+            <h3>Celina Thomas</h3>
+            <p>Celina Thomas is reponsible for.....</p>
+            <button class="team-btn">Team Leader</button>
+          </div>
+          <div class="card">
+            <h3>Mike Tyson</h3>
+            <p>Mike Tyson is reponsible for.....</p>
+            <button class="team-btn">Delivery Head</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="history">
+      <div class="history-content">
+        <h1>Company History</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          aperiam, consequatur ipsa inventore consectetur vero sequi accusantium
+          eius dolorum minus dolorem atque quae odit. Recusandae corporis quos
+          porro debitis error illo rerum ad qui consequatur sapiente, veritatis
+          ipsum eveniet eaque labore ab. Aspernatur vero quasi accusamus optio,
+          facilis saepe cum doloremque quia nisi, at rerum recusandae sit! Fuga
+          saepe facilis tenetur doloribus mollitia doloremque sint sequi hic
+          exercitationem reiciendis, vitae quidem quaerat totam illum quas
+          consequatur velit adipisci, minus nam similique praesentium ipsa?
+          Dolorem porro quia ipsam perspiciatis repellendus enim distinctio
+          nostrum molestias accusamus? Aliquid, cum minima! Ullam, temporibus
+          nulla.
+        </p>
+
+        <h2>Our Location</h2>
+
+        <div class="images">
+          <img
+            src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="location-img"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1589178941221-136be7711c99?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="location-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <h1>CONTACT US</h1>
+        <p>Get in touch</p>
+      </div>
+
+      <form action="">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+          required
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Enter Your Message"
+          rows="10"
+          required
+        ></textarea>
+        <button type="submit" class="submit-form">Submit</button>
+      </form>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
