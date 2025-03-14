@@ -2,6 +2,7 @@ async function fetchDestinations() {
   try {
     const response = await fetch("/travel_recommendation_api.json");
     const data = await response.json();
+    console.log("Fetched destinations:", data);
     return data;
   } catch (error) {
     console.error("Error fetching destinations:", error);
